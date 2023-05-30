@@ -3,23 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_warm_up">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.fitbreak.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_warm_up"
+        android:name="com.example.fitbreak.ui.warmUp.WarmUpFragment"
+        android:label="@string/title_warm_up"
+        tools:layout="@layout/fragment_warm_up" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.fitbreak.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_profile"
+        android:name="com.example.fitbreak.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.fitbreak.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
 </navigation>
