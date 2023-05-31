@@ -1,10 +1,4 @@
 <resources>
     <string name="app_name">FitBreak</string>
     <string name="title_warm_up">Разминка</string>
-    <string name="title_profile">Профиль</string>
-    <string name="next">Дальше</string>
-    <string name="skip">Пропустить</string>
-    <string name="start">Старт</string>
-    <string name="ready">Готово</string>
-    <string name="edit_data">Изменить данные</string>
 </resources>
