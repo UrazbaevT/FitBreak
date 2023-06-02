@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:text="1. Разжимания кистей"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Полезное упражнение для офисной гимнастики, которое разминает все мелкие суставы и связки кисти, улучшает кровообращение рук. Обязательно к выполнению для людей, работающих за компьютером."
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"/>
+
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="11sp"
+        android:text="Выполните 8-10 разжиманий всего."
+        android:textColor="#80000000"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_desc"/>
+
+    <ImageView
+        android:id="@+id/iv_gif"
+        android:layout_width="328dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="10dp"
+        android:src="#B35DE8"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_quantity"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
